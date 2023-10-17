@@ -1,0 +1,5 @@
+List of Fonts used in template 
+
+Sansita One	http://www.google.com/webfonts/specimen/Sansita_One
+PT Sans Narrow	http://www.google.com/webfonts/download?kit=7nBMW2vUKH_rT9tAKKKBpiTBD9fnc3hkPST15W7T9qk
+

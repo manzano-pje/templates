@@ -1,0 +1,109 @@
+/****Form****/
+
+#form {
+	padding-top: 6px;
+}
+#form input {
+	background: #818699;
+	border-top: 1px solid #1f232f;
+	border-left: 1px solid #1f232f;
+	border-right: 1px solid #9fa1b1;
+	border-bottom: 1px solid #9fa1b1;
+	font-size:13px;
+	color:#dadbdf;
+	height: 16px;
+
+	padding:7px 10px 7px 8px;
+	outline: medium none;
+	width: 201px;
+	height:15px;
+	float:left;
+}
+#form textarea {
+	border-top: 1px solid #1f232f;
+	border-left: 1px solid #1f232f;
+	border-right: 1px solid #9fa1b1;
+	border-bottom: 1px solid #9fa1b1;
+	background: #818699;
+	font-size:13px;
+	color:#dadbdf;
+	height: 214px !important;
+	outline: medium none;
+	overflow: auto;
+	line-height: 16px;
+	padding: 6px 10px 9px 8px;
+	width: 201px;
+	position: relative;
+	resize:none;
+	float:left;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+}
+#form label {
+	position:relative;
+	display: block;
+	min-height: 51px;
+	overflow: hidden;
+	float: left;
+	clear: left;
+}
+#form .error, #form .empty {
+	color: #FF0000;
+	display: none;
+	font-size: 11px;
+	line-height:14px;
+	width:auto;
+	float:left;
+	margin-top:2px;
+
+}
+#form .error-empty {
+	display:none;
+	float:left;
+}
+
+.btns {
+	position:relative;
+	padding-top: 11px;
+	padding-bottom: 15px;
+}
+.btns a {
+	margin: 0px 10px 0px 0px !important;
+	cursor: pointer;
+
+
+}
+
+#form .message {
+	min-height: 247px;	
+}
+
+.message br {
+	height: 0;
+	line-height: 0;
+}
+
+#form .success {
+	display: none;
+	padding-bottom: 12px;	
+}
+
+#form strong {
+	color: #DADBDF;
+}
+
+.form_val {
+	float: left;
+	min-width: 70px;	
+	display: block;
+	padding-top: 6px;
+}
+
+.btns a.btn {
+	margin-top: 3px !important;	
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+
+/*footer*/

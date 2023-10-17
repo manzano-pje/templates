@@ -1,0 +1,8 @@
+*+html{overflow:auto;}
+.figure-2 img,.figure-1 img,.map,.carousel figure img,.carousel-2 figure img,.soc_list li a,.price-1 strong{behavior:url(js/PIE.htc);position:relative}
+.car_btn b,.car_btn-2 b,.car_btn,.car_btn-2 {behavior:url(js/PIE.htc);}
+.car_btn{-pie-background:linear-gradient(#8dacb6 0%, #033747 3%, #00080a 100%);}
+.car_btn-2{-pie-background:linear-gradient(#f2fafc 0%, #abdcec 100%);}
+.car_btn b,.car_btn-2 b{-pie-background:linear-gradient(#fb3645 0%, #e0080a 100%);width:100%;height:100%;left:0;top:-100px;bottom:0;right:0;}
+.car_btn:hover b,.car_btn-2:hover b {top:0;}
+.price-1 strong{-pie-background:linear-gradient(#f23544 0%, #fa3644 1%, #fa3543 4%, #e41014 80%, #e0080a 100%);}

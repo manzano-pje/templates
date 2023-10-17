@@ -1,0 +1,137 @@
+/* menu */
+
+header nav {
+	width: 100%;
+	position: relative;
+	z-index: 2;
+}
+
+.sf-menu {
+	display:block;
+	position: relative;
+}
+.sf-menu ul {
+	position:absolute;
+	top:-999px;
+	display:none;
+}
+.sf-menu li {
+	position:relative;
+	display: block;
+
+}
+
+
+.sf-menu li:hover ul, .sf-menu li.sfHover ul {
+	z-index:99
+}
+ul.sf-menu li:hover li ul, ul.sf-menu li.sfHover li ul {
+	top:-999px;
+	display:none;
+}
+ul.sf-menu li li:hover ul, ul.sf-menu li li.sfHover ul {
+	left:100%;
+	top:0;
+}
+
+ul.sf-menu>li {
+	position:relative;
+	text-align:left;
+	display:block;
+	position: relative;
+	float: left;
+	bottom: -10px;
+	background: url(../images/menu_separator.png) 0 0 no-repeat	
+}
+
+
+ul.sf-menu>li a {
+	text-decoration:none;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size:16px;
+	text-align: center;
+	line-height:20px;
+	padding: 31px 20px 39px;
+	display: block;
+	text-transform:uppercase;
+	font-style: normal !important;
+	color:#818699;
+	
+	position: relative;
+}
+
+ul.sf-menu>li a:hover, ul.sf-menu>li.current a, ul.sf-menu>li.sfHover a {
+	color: #fff;
+	background: url(../images/menu_hov_bg.png) 0 0 repeat-x #3c5890;
+	z-index: 2;
+	
+}
+
+
+.sf-menu>li>ul {
+	width:81px;
+	left:0px;
+	padding: 9px 10px 5px;
+	top:90px;
+	z-index: 100;
+	background: url(../images/sub_bg.png) no-repeat 0 0 #c3c4c8;
+}
+
+.sf-menu>li>ul>li {
+	display:block;
+	text-align: center;
+	position: static;
+	float: none;
+	line-height: 12px;
+	margin: 7px 0 10px;
+}
+
+
+ul.sf-menu>li>ul>li>a {
+	font: bold 16px/20px 'PT Sans Narrow', sans-serif;
+	color: #fff1bf;
+	display: inline;
+	padding: 0;
+	background: none !important;
+	color:#818699 !important;
+}
+
+
+
+.sf-menu>li>ul>li>a:hover, .sf-menu>li>ul>li.sfHover>a {
+	color:#7290b6 !important;
+}
+
+.sf-menu>li li>ul {
+	width:81px;
+	left:102px !important;
+	top: 36px !important;
+	padding: 9px 10px 5px;
+	background: url(../images/sub_bg.png) no-repeat 0 0 #c3c4c8;
+	text-align: center;
+	z-index: 999;
+	}
+
+.sf-menu>li li>ul>li {
+	display:block;
+	text-align: center;
+	position: static;
+	float: none;
+	line-height: 12px;
+	padding: 7px 0 8px;
+}
+
+.sf-menu>li li>ul>li>a {
+	font: bold 16px/20px 'PT Sans Narrow', sans-serif;
+	color: #fff1bf;
+	display: inline;
+	padding: 0;
+	background: none !important;
+	color:#818699 !important;
+}
+
+.sf-menu>li li>ul>li>a:hover {
+	color: #7290b6 !important;
+}
+
+
